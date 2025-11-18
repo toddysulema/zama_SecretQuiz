@@ -7,6 +7,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title SecretQuiz - Privacy-Preserving Knowledge Quiz Platform
 /// @author SecretQuiz Team
 /// @notice Encrypted quiz system where answers and scores remain private
+/// @dev Uses FHEVM for fully homomorphic encryption
 contract SecretQuiz is ZamaEthereumConfig {
     /// @notice Quiz structure
     struct Quiz {
