@@ -1,3 +1,4 @@
+// FHEVM initialization and management
 import { isAddress, Eip1193Provider, JsonRpcProvider } from "ethers";
 import type {
   FhevmInitSDKOptions,
