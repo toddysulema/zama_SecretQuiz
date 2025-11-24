@@ -13,8 +13,6 @@ import "./tasks/accounts";
 import "./tasks/FHECounter";
 import "./tasks/SecretQuiz";
 
-// Hardhat configuration for FHEVM development
-
 // Run 'npx hardhat vars setup' to see the list of variables that need to be set
 
 const MNEMONIC: string = vars.get("MNEMONIC", "test test test test test test test test test test test junk");

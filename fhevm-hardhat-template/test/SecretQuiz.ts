@@ -34,7 +34,6 @@ describe("SecretQuiz", function () {
       console.warn(`This hardhat test suite cannot run on Sepolia Testnet`);
       this.skip();
     }
-    // Setup test environment
 
     ({ secretQuizContract, secretQuizContractAddress } = await deployFixture());
   });

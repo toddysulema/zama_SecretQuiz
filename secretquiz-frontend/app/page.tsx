@@ -20,7 +20,7 @@ export default function HomePage() {
             Your Answers, Forever Private
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-            Prove your knowledge without revealing your answers using fully homomorphic encryption on the blockchain.
+            Prove your knowledge without revealing your answers using fully homomorphic encryption on the blockchain
           </p>
           
           <div className="flex gap-4 justify-center flex-wrap">
